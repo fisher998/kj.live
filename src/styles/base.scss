@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: none;
+}
+textarea {
+  resize: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover,
+a:visited {
+  text-decoration: none;
+  border: 0;
+}
+body {
+  font-size: 12px;
+  font-family: Arial, "PingFang SC";
+  background: #fff;
+  color: #000;
+}
+ul,
+ol {
+  margin-bottom: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+p {
+  margin: 0 0 ;
+}
+.ver-middle {
+  vertical-align: middle;
+}
+.margin-auto {
+  margin: 0 auto;
+}
+/*头部*/
+.weui-detailTop {
+  width: 100%;
+}
+.weui-detailTop .weui-cells {
+    margin-top: 0;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    z-index: 20;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.weui-detailTop .weui-cells:after {
+  border-bottom: 0;
+}
+.weui-detailTop .weui-cell {
+  padding: 14px 6px;
+}
+.weui-detailTop img {
+  width: 1.92rem;
+  height: auto;
+  margin-right: 0.3em;
+}
+.f10 {
+  font-size: 10px;
+}
+.f12 {
+  font-size: 12px;
+}
+.f13 {
+  font-size: 13px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f15 {
+  font-size: 15px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f22 {
+  font-size: 22px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f26 {
+  font-size: 26px;
+}
+.f34 {
+  font-size: 34px;
+}
+.f-bold {
+  font-weight: bold;
+}
+.w_red {
+  color: #f32b1b;
+}
+.w_green {
+  color: #05a548;
+}
+.w_blue {
+  color: #428bca;
+}
+.w_gray {
+  color: #b8bec7;
+}
+.w_black {
+  color: #000;
+}
+.w_blue2 {
+  color: #1b4a90;
+}
+.w_white {
+  color: #fff;
+}
+.bg_red {
+  background: #f32b1b;
+}
+.bg_red_ex {
+  background: #f32b1b;
+  width: 60px !important;
+}
+.bg_gray {
+  background: #f5f5f5;
+}
+.bg_blue {
+  background: #428bca;
+}
+.bg_green {
+  background: #05a548;
+}
+.little-word {
+  color: #b8bec7;
+  font-size: 12px;
+}
+.nav-tabs-row li {
+  width: 100%;
+}
+.nav-tabs-2row li {
+  width: 50%;
+}
+.nav-tabs-3row li {
+  width: 33.33333333%;
+}
+.nav-tabs-4row li {
+  width: 25%;
+}
+.nav-tabs-5row li {
+  width: 20%;
+}
+.nav-tabs-6row li {
+  width: 16.66666667%;
+}
+em,
+i {
+  font-style: normal;
+}
+.clear {
+  clear: both;
+}
+.bor-radius {
+  border-radius: 5px;
+}
+.fbold {
+  font-weight: 500;
+}
+.flex-r-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-c-center {
+  display: flex;
+  align-items: center;
+}
+.padding10 {
+  padding: 10px;
+}
+.positionr {
+  position: relative;
+}
+#example-navbar-collapse {
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  background: #f32b1b;
+  z-index: 99999;
+}
+#example-navbar-collapse li a {
+  color: #fff;
+}
+.border-bottom {
+  border-bottom: 10px solid #f5f5f5;
+}
+.navbar-nav {
+  margin: 7.5px 0px;
+}
+.carousel-inner .item img {
+  width: 100%;
+  height: 110px;
+}
+.well-xxs {
+  width: 100%;
+  height: 10px;
+  background: #f5f5f5;
+}
+.footer-fixed-ad {
+  width: 100%;
+  overflow: hidden;
+  max-height: 200px;
+}
+.footer-fixed-ad .ad-box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.footer-fixed-ad .ad-box a {
+  display: block;
+}
+.footer-fixed-ad .ad-box img {
+  width: 100%;
+  height: auto;
+}
+.footer-fixed-ad .btn-one {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background: #f32b1b;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 17px;
+}
+.footer-fixed-ad .btn-one:hover {
+  background: #ba2a1f;
+}
+.nofixed-ad {
+  width: 100%;
+  border-bottom: 0px solid #f5f5f5;
+}
+.nofixed-ad img {
+  width: 100%;
+  height: 100px;
+}
+.no-top-ad {
+  border-top: 0;
+}
+
+
+.bgfff {
+    background: #fff;
+    position: fixed;
+    top: 83px;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+.nav_box .nav_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%
+}
+.nav_ul li {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: .5rem;
+    text-align: center;
+    position: relative;
+    padding: .12rem 0 0;
+}
+.nav_ul li:active {
+    background-color: #eee
+}
+.nav_ul li a {
+    display: block;
+    color: #666;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.nav_ul li:last-child a {
+    border-right: 0
+}
+.nav_ul li .menu_name {
+    display: block;
+    padding-top: .02rem
+}
+.red_circle {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #f63f3f;
+    margin-left: 6px;
+    overflow: hidden
+}
+.nav_ul .menu_tips {
+    position: absolute;
+    display: block;
+    font-size: .06rem;
+    color: #fff;
+    background: #f63f3f;
+    border-radius: .06rem;
+    height: .1rem;
+    line-height: .1rem;
+    padding: 0 .03rem;
+    top: .12rem;
+    left: .38rem
+}
+.menu_icon1, .menu_icon10, .menu_icon11, .menu_icon12, .menu_icon13, .menu_icon2, .menu_icon3, .menu_icon4, .menu_icon5, .menu_icon6, .menu_icon7, .menu_icon8, .menu_icon9 {
+    display: inline-block;
+    background: url(http://static.caishencai.com/caipiao-m-html-source/m/public-style/images/nav_icon.png) no-repeat 0 0;
+    background-size: 23px auto;
+    width: 23px;
+    height: 23px
+}
+.menu_icon2 {
+    background-position: 0 -25px
+}
+.menu_icon3 {
+    background-position: 0 -49px
+}
+.menu_icon4 {
+    background-position: 0 -75px;
+}
+.menu_icon5 {
+    background-position: 0 -100px
+}
+
+.topSwipeWrap {
+  overflow: hidden;
+  z-index: 1
+}
+
+.topSwipeWrap .topSwipeItem {
+  float: left;
+  width: 100%;
+  position: relative;
+  z-index: 1
+}
+
+.topSwipeWrap .topSwipeItem img {
+  width: 100%;
+  display: block
+}
+
+.topSwipeDot {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+  bottom: 2px;
+  z-index: 2
+}
+.fixed_right_bottom {
+  position: fixed;
+  right: 1.46rem;
+  bottom: 6rem;
+  z-index: 99999
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.circle {
+  border-radius: 50%;
+}
