@@ -6,8 +6,10 @@
       <router-link to="/home/gaopin">高频<p></p></router-link>
     </div>
     <van-swipe :autoplay="3000" class="hf_swipe">
-      <van-swipe-item v-for="(image, index) in images" :key="index">
-        <img v-lazy="image" />
+      <van-swipe-item v-for="(item, index) in images" :key="index">
+        <a :href="item.url">
+          <img v-lazy="item.img" />
+        </a>
       </van-swipe-item>
     </van-swipe>
     <router-view />
@@ -27,8 +29,15 @@ export default {
   data() {
     return {
       images: [
-        'http://static.caishencai.com/caipiao-m-html-source/public-style/images/jjc_shouyelunbo.png',
-        'http://static.caishencai.com/caipiao-m-html-source/public-style/images/xinrenfudai_shouyelunbo.png'
+        {
+          img: 'http://static.caishencai.com/caipiao-m-html-source/public-style/images/jjc_shouyelunbo.png',
+          url: 'http://m.live.caishencai.com'
+        },
+        {
+          img: 'http://static.caishencai.com/caipiao-m-html-source/public-style/images/xinrenfudai_shouyelunbo.png',
+          url: 'http://adv.chengyouhudong.com/c/cpc/19'
+        }
+        
       ]
     }
   },
