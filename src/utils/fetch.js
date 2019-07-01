@@ -2,7 +2,7 @@ import axios from 'axios';
 import { paramsFormat } from '@/tools/format.js';
 import qs from 'qs';
 
-const baseURL = 'http://api.kaijiang.com/App.php';
+const baseURL = '';
 
 var fetch = axios.create({
   baseURL: baseURL,
